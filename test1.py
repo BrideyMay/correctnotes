@@ -2,11 +2,11 @@ import streamlit as st
 import pandas as pd
 
 
-st.header("Metrics File Anonymization")
+#st.header("Metrics File Anonymization")
 
 st.write("""
-# My first app
-Hello *world!*
+# Metrics File Anonymization
+Use this tool to remove any company, project, or user specific information from your iC Data Center metrics files.
 """)
 
 
