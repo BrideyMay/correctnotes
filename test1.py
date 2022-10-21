@@ -6,7 +6,7 @@ import pandas as pd
 
 st.write("""
 # Metrics File Anonymization
-Use this tool to remove any company, project, or user specific information from your iC Data Center metrics files.
+Use this tool to remove any company, project, or user specific information from your iC Data Center metrics files. 
 """)
 
 
@@ -17,7 +17,7 @@ uploaded_data = st.file_uploader(
 )
 
 if uploaded_data is None:
-    st.info("Using example data. Upload a file above to use your own data!")
+    st.info("The ExperimentHistory.csv file is usually located in C:\ProgramData\METTLER TOLEDO\iC Data Center\6.1")
     # uploaded_data = open("example.csv", "r")
 else:
     st.success("Uploaded your file!")
