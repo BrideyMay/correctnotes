@@ -22,6 +22,13 @@ if uploaded_data is None:
 else:
     st.success("Uploaded your file!")
 
+df = pd.read_csv(uploaded_data)
+with st.expander("Raw Dataframe"):
+    st.write(df.head)
+
+#df = clean_data(df)
+#with st.expander("Cleaned Data"):
+#    st.write(df)
 
 # df= pd.read_csv("my_data.csv")
 # st.line_chart(df)
