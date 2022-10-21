@@ -23,7 +23,7 @@ else:
     st.success("Uploaded your file!")
     df = pd.read_csv(uploaded_data)
     with st.expander("Raw Dataframe"):
-        st.write(df.head)
+        st.write(df.head())
 
 #df = clean_data(df)
 #with st.expander("Cleaned Data"):
